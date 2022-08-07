@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+html {
+    color: #FFFFFF;
+    scroll-behavior: smooth;
+}
+
+main {
+    background-color: #1c1c1c;
+}
+
+/*--------------HEADER--------------*/
+header {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7rem 5rem;
+}
+
+#links-menu {
+    display: flex;
+    list-style: none;
+    gap: .7rem;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: .5rem 0.6rem;
+    
+}
+
+li a:hover {
+    text-decoration: underline;
+    background-color: #1C1C1C;
+    color: #1E90FF;
+}
+
+#logo {
+    width: 40px;
+}
+
+.mobile-menu-icon,
+.mobile-menu {
+    display: none;
+}
+
+.icon-menu {
+    padding: 10px;
+}
+
+/*--------------HOME PAGE--------------*/
+#home {
+    display: flex;
+    align-items: center;
+    padding: 100px 2rem 0;
+    justify-content: space-around;
+    min-height: calc(100vh - 150px);
+    margin-top: 0;
+}
+
+.img-computer {
+    width: 40vw;
+    animation: float 1s linear infinite alternate-reverse;
+}
+
+@keyframes float {
+    to {
+        transform: translate( 0px, 23px)
+    }
+}
+
+#home h1 {
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+h1 span {
+    font-size: 38px;
+    color: #1E90FF;
+    font-weight: 600;
+}
+
+.icon-link {
+    width: 40px;
+    transition: all .1s ease-in-out
+}
+
+.icon-link:hover, .icon-link2:hover {
+    transform: scale(1.1);
+}
+
+.curriculo {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#btn-curriculo, .btn-mais-detalhes, #btn-submit {
+    font-size: 13pt;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 8px;
+    border-color: #1E90FF;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #1E90FF inset, 0 0 0 0 #1E90FF;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+#btn-curriculo:hover {
+    box-shadow: 0 0 10px 0 #1E90FF inset, 0 0 10px 4px #1E90FF;
+    letter-spacing: 1px;
+}
+
+/*--------------SOBRE MIM--------------*/
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+#sobre-mim div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+}
+
+.my-photo {
+    width: 24vw;
+    border-radius: 50%;
+}
+
+#sobre-mim-left {
+    display: flex;
+    flex-basis: 48%;
+    text-align: center;
+    font-size: 19px;
+}
+
+.img-and-content {
+    padding: 2rem 2rem 0;
+}
+
+/*--------------HABILIDADES--------------*/
+.icon {
+    height: 80px;
+    width: 80px;
+}
+
+.tec-content {
+    padding: 2rem 2rem 0;
+}
+
+.programas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 60px;
+    flex-basis: 40%;
+}
+
+.item-programa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+
+.item-programa:hover {
+    transform: scale(1.1);
+    color: #1E90FF;
+}
+
+#programas-text {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+#instrucao {
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, .4);
+}
+
+.descrição-tec {
+    flex-basis: 40%;
+    font-size: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.outros-conhecimentos {
+    padding: 12px 8% 0;
+}
+
+.outros-conhecimentos ul {
+    list-style: circle;
+    padding: 18px 8px 0;
+}
+
+/*--------------PROJETOS--------------*/
+.img-projeto {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.galeria-projetos {
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+    padding: 2rem 2rem 0;
+    flex-wrap: wrap;
+}
+
+.box-projeto {
+    background-color: #E0FFFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    height: auto;
+    transition: all .1s ease-in-out;
+    box-shadow: 3px 2px 30px 8px rgba(255, 255, 255, 0.165) ;
+}
+
+.box-projeto h3 {
+    padding: 12px 18px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.box-projeto p {
+    text-align: center;
+    color: #000000;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+.box-projeto:hover {
+    transform: scale(1.1);
+}
+
+.btn-mais-detalhes{
+    margin: auto auto 2rem;
+}
+.btn-mais-detalhes:hover {
+    box-shadow: 0 0 10px 0 #1c1c1c inset, 0 0 10px 4px #1c1c1c;
+    color: #1C1C1C;
+    letter-spacing: 1px;
+}
+
+/*--------------CONTATO--------------*/
+
+.form-contato {
+    width: 80vw;
+    padding: 0px 5px 100px;
+    margin: 0 auto;
+
+}
+
+#contato input {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+}
+
+#btn-submit {
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 32px auto;
+}
+
+#contato input, textarea {
+    margin: 8px 0px 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #E0FFFF;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 8px;
+    resize: none;
+    padding-top: 10px;
+}
+
+label span {
+    color: #b0041b;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #1c1c1c8d;
+}
+
+/*--------------FOOTER--------------*/
+footer {
+    background-color: #000000;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#icon-footer a, #icon-home a {
+    text-decoration: none;
+}
+
+.icon-link2 {
+    height: 40px;
+    transition: all .1s ease-in-out;
+}
+
+#nome-footer {
+    margin-bottom: 6px;
+}
+
+/*---------------SCROLL REVEAL------------------*/
+#btn-curriculo, .img-computer, .my-photo, .programas {
+    visibility: hidden;
+}
+
+/*-------PERSONALIZANDO A BARRA DE SCROLL-------*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #87CEEB;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1E90FF;
+}
+
+/*--------------MEDIA QUERYS--------------*/
+@media screen and (max-width: 650px) {
+    .tec-content {
+        flex-direction: column;
+        gap: 12vw;
+        padding: 2rem;
+    }
+
+    .outros-conhecimentos {
+        padding: 0;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px; 
+        height: 210px; 
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #home {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+        min-height: calc(100vh - 250px);
+        padding-top: 150px;
+    }
+
+    .img-computer {
+        width: 60vw;
+        margin-top: 15px;
+    }
+    
+    #links-menu {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 70vh;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding: 1.3rem;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .open {
+        display: block;
+    }
+
+    nav {
+        padding: .7rem 1rem;
+    }
+    
+    #sobre-mim div {
+        flex-direction: column;
+    }
+
+    .my-photo {
+        width: 40vw;
+    }
+
+    #programas-text {
+        display: block;
+    }
+
+    .descrição-tec {
+        width: 60%;
+        margin: 30px auto 60px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #home h1 {
+        font-size: 6.6vw;
+    }
+
+    h1 span {
+        font-size: 9.4vw;
+    }
+
+    .btn-mais-detalhes {
+        padding: 10px;
+    }
+
+    .my-photo {
+        width: 64vw;
+    }
+}
