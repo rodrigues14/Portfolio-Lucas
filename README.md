@@ -7,3 +7,5 @@
 </div>
 
 <p>Meu Portfólio. Aplicação criada para apresentar meus projetos e um pouco mais sobre mim!</p>
+
+<img src="./images/img-portfolio.PNG">
