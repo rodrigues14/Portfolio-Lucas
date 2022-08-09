@@ -454,7 +454,7 @@ footer {
     }
 
     .descrição-tec {
-        width: 60%;
+        width: 80%;
         margin: 30px auto 60px;
     }
 }
@@ -474,5 +474,8 @@ footer {
 
     .my-photo {
         width: 64vw;
+    }
+    .descrição-tec {
+        width: 100%;
     }
 }
