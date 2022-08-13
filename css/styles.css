@@ -47,7 +47,6 @@ nav a {
 }
 
 li a:hover {
-    text-decoration: underline;
     background-color: #1C1C1C;
     color: #1E90FF;
 }
@@ -111,22 +110,21 @@ h1 span {
     margin-top: 60px;
 }
 
-#btn-curriculo, .btn-mais-detalhes, #btn-submit {
-    font-size: 13pt;
+.btn {
+    font-size: 14pt;
     font-weight: 700;
     text-decoration: none;
-    padding: 10px 50px;
+    padding: 14px 25px;
     border-radius: 8px;
-    border-color: #1E90FF;
+    background-color: #1E90FF;
     color: #fff;
-    box-shadow: 0 0 40px 40px #1E90FF inset, 0 0 0 0 #1E90FF;
-    -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
+    transition: .3s;
+    white-space: nowrap;
 }
 
-#btn-curriculo:hover {
-    box-shadow: 0 0 10px 0 #1E90FF inset, 0 0 10px 4px #1E90FF;
-    letter-spacing: 1px;
+.btn:hover {
+    background-color: #1e65ff;
+    transform: translate( 0px, 6px)
 }
 
 /*--------------SOBRE MIM--------------*/
@@ -154,7 +152,7 @@ h2 {
 #sobre-mim-left {
     display: flex;
     flex-basis: 48%;
-    text-align: center;
+    text-align: start;
     font-size: 19px;
 }
 
@@ -270,25 +268,29 @@ h2 {
 .btn-mais-detalhes{
     margin: auto auto 2rem;
 }
-.btn-mais-detalhes:hover {
-    box-shadow: 0 0 10px 0 #1c1c1c inset, 0 0 10px 4px #1c1c1c;
-    color: #1C1C1C;
-    letter-spacing: 1px;
-}
 
 /*--------------CONTATO--------------*/
-
 .form-contato {
     width: 80vw;
     padding: 0px 5px 100px;
     margin: 0 auto;
-
 }
 
-#contato input {
-    width: 100%;
-    padding: 8px 0;
+#contato input, textarea {
+    margin: 8px 0px 20px;
+    font-size: 18px;
+    border-radius: 8px;
     border: none;
+    background-color: #E0FFFF;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+textarea { 
+    min-height: 200px;
+    max-height: 500px;
+    resize: vertical;
 }
 
 #btn-submit {
@@ -296,23 +298,7 @@ h2 {
     cursor: pointer;
     display: block;
     margin: 32px auto;
-}
-
-#contato input, textarea {
-    margin: 8px 0px 20px;
-    padding-left: 10px;
-    font-size: 18px;
-    border-radius: 8px;
-    border: none;
-    background-color: #E0FFFF;
-}
-
-textarea {
-    width: 100%;
-    height: 200px;
-    margin-top: 8px;
-    resize: none;
-    padding-top: 10px;
+    width: 200px;
 }
 
 label span {
@@ -466,10 +452,6 @@ footer {
 
     h1 span {
         font-size: 9.4vw;
-    }
-
-    .btn-mais-detalhes {
-        padding: 10px;
     }
 
     .my-photo {
