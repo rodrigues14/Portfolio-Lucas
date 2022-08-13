@@ -43,7 +43,7 @@ nav a {
     text-decoration: none;
     color: #FFFFFF;
     padding: .5rem 0.6rem;
-    
+    transition: .5s;
 }
 
 li a:hover {
@@ -81,7 +81,7 @@ li a:hover {
 
 @keyframes float {
     to {
-        transform: translate( 0px, 23px)
+        transform: translate( 0px, 23px);
     }
 }
 
@@ -118,13 +118,13 @@ h1 span {
     border-radius: 8px;
     background-color: #1E90FF;
     color: #fff;
-    transition: .3s;
+    transition: .5s;
     white-space: nowrap;
 }
 
 .btn:hover {
-    background-color: #1e65ff;
-    transform: translate( 0px, 6px)
+    background-color: rgb(23, 125, 255);
+    transform: translate( 0px, 3px);
 }
 
 /*--------------SOBRE MIM--------------*/
@@ -154,6 +154,7 @@ h2 {
     flex-basis: 48%;
     text-align: start;
     font-size: 19px;
+    line-height: 29px;
 }
 
 .img-and-content {
@@ -189,6 +190,7 @@ h2 {
 }
 
 .item-programa:hover {
+    transition: .5s;
     transform: scale(1.1);
     color: #1E90FF;
 }
@@ -245,7 +247,7 @@ h2 {
     align-items: center;
     width: 340px;
     height: auto;
-    transition: all .1s ease-in-out;
+    transition: all .3s ease-in-out;
     box-shadow: 3px 2px 30px 8px rgba(255, 255, 255, 0.165) ;
 }
 
@@ -262,7 +264,7 @@ h2 {
     margin-bottom: 2rem;
 }
 .box-projeto:hover {
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 
 .btn-mais-detalhes{
