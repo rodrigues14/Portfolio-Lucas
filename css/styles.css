@@ -16,52 +16,47 @@ main {
 }
 
 /*--------------HEADER--------------*/
-header {
-    background-color: #000000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .7rem 5rem;
-}
-
-#links-menu {
-    display: flex;
-    list-style: none;
-    gap: .7rem;
-    align-items: center;
-}
-
-nav a {
+a {
+    color: #fff;
     text-decoration: none;
-    color: #FFFFFF;
-    padding: .5rem 0.6rem;
-    transition: .5s;
+    font-size: 18px;
 }
 
-li a:hover {
-    background-color: #1C1C1C;
-    color: #1E90FF;
+#menu a:hover {
+    background: #1c1c1c;
+    transition: .5s;
 }
 
 #logo {
     width: 40px;
 }
 
-.mobile-menu-icon,
-.mobile-menu {
-    display: none;
+#header {
+    box-sizing: border-box;
+    height: 80px;
+    padding: 1rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
-.icon-menu {
-    padding: 10px;
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a {
+    display: block;
+    padding: .8rem;
+}
+
+#btn-mobile {
+    display: none;
 }
 
 /*--------------HOME PAGE--------------*/
@@ -391,44 +386,42 @@ footer {
         width: 60vw;
         margin-top: 15px;
     }
-    
-    #links-menu {
-        display: none;
+
+    #header {
+        padding: 1rem 1rem;
     }
 
-    .mobile-menu-icon {
+    #btn-mobile {
         display: block;
-    }
-
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
+        background: transparent;
         cursor: pointer;
     }
 
-    .mobile-menu ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
+    #menu {
+        display: block; 
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #000;
+        transition: .5s;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active  #menu {
+        height: 100vh;
+        visibility: visible; 
+    }
+
+    #menu a {
+        padding: 1.3rem 0;
         text-align: center;
-        padding-bottom: 70vh;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(255, 255, 255, .05);
     }
 
-    .mobile-menu .nav-item {
-        display: block;
-        padding: 1.3rem;
-        color: #FFFFFF;
-        text-decoration: none;
-    }
-
-    .open {
-        display: block;
-    }
-
-    nav {
-        padding: .7rem 1rem;
-    }
-    
     #sobre-mim div {
         flex-direction: column;
     }

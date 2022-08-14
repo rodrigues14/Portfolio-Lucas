@@ -11,55 +11,21 @@
     <link rel="shortcut icon" href="./images/logo.png" >
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
-            <a id="link-logo" href="#home">
-                <img id="logo" src="./images/logo.png" alt="">
-            </a>
-            <div class="nav-list">
-                <ul id="links-menu">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#sobre-mim">Sobre mim</a>
-                    </li>
-                    <li>
-                        <a href="#habilidades">Habilidades</a>
-                    </li>
-                    <li>
-                        <a href="#projetos">Projetos</a>
-                    </li>
-                    <li>
-                        <a href="#contato">Contato</a>
-                    </li>
-                </ul>
 
-                <div class="mobile-menu-icon">
-                    <button onclick="menuShow()"> <img class="icon-menu" src="./images/icon-menu.svg" alt=""> </button>
-                </div>
-            </div>
-        </nav>
-
-        <div class="mobile-menu" onclick="click()">
-            <ul>
-                <li>
-                    <a id="link1" class="nav-item" href="#home">Home</a>
-                </li>
-                <li>
-                    <a id="link2" class="nav-item" href="#sobre-mim">Sobre mim</a>
-                </li>
-                <li>
-                    <a id="link3" class="nav-item" href="#habilidades">Habilidades</a>
-                </li>
-                <li>
-                    <a id="link4" class="nav-item" href="#projetos">Projetos</a>
-                </li>
-                <li>
-                    <a id="link5" class="nav-item" href="#contato">Contato</a>
-                </li>
+    <header id="header">
+        <a id="link-logo" href="#home">
+            <img id="logo" src="./images/logo.png" alt="">
+        </a>
+        <nav id="nav">
+            <button id="btn-mobile"><img id="icon-menu" src="./images/icon-menu.svg" alt=""></button>
+            <ul id="menu">
+                <li class="link"><a id="link1" href="#home">Home</a></li>
+                <li class="link"><a id="link2" href="#sobre-mim">Sobre mim</a></li>
+                <li class="link"><a id="link3" href="#habilidades">Habilidades</a></li>
+                <li class="link"><a id="link4" href="#projetos">Projetos</a></li>
+                <li class="link"><a id="link5" href="#contato">Contato</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
 
     <main>
