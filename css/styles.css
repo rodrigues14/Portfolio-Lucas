@@ -392,6 +392,7 @@ footer {
     }
 
     #btn-mobile {
+        border: none;
         display: block;
         background: transparent;
         cursor: pointer;
