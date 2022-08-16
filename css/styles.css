@@ -405,7 +405,7 @@ footer {
         top: 70px;
         right: 0px;
         background: #000;
-        transition: .5s;
+        transition: .4s;
         height: 0px;
         visibility: hidden;
         overflow-y: hidden;

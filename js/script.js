@@ -16,24 +16,29 @@ function toggleMenu(event) {
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
+function fecharMenu() {
 
-let linksMenu = [
-    document.querySelector('#link1'),
-    document.querySelector('#link2'),
-    document.querySelector('#link3'),
-    document.querySelector('#link4'),
-    document.querySelector('#link5'),
-    document.querySelector('#link-logo')
-];
+    let linksMenu = [
+        document.querySelector('#link1'),
+        document.querySelector('#link2'),
+        document.querySelector('#link3'),
+        document.querySelector('#link4'),
+        document.querySelector('#link5'),
+        document.querySelector('#link-logo')
+    ];
+    
+    for (var c = 0; c < linksMenu.length; c++) {
+        linksMenu[c].addEventListener('click', () => {
+            if (nav.classList.contains('active')) {
+                nav.classList.remove('active');
+                iconMenu.src = "./images/icon-menu.svg";
+            }
+        })
+    }
 
-for (var c = 0; c < linksMenu.length; c++) {
-    linksMenu[c].addEventListener('click', () => {
-        if (nav.classList.contains('active')) {
-            nav.classList.remove('active');
-            iconMenu.src = "./images/icon-menu.svg";
-        }
-    })
 }
+
+fecharMenu();
 
 
 function mostrarFrase() {
