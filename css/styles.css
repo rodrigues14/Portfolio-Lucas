@@ -70,7 +70,7 @@ a {
 }
 
 .img-computer {
-    width: 40vw;
+    width: 400px;
     animation: float 1s linear infinite alternate-reverse;
 }
 
@@ -156,7 +156,7 @@ h2 {
 }
 
 .my-photo {
-    width: 24vw;
+    width: 270px;
     border-radius: 50%;
 }
 
@@ -443,9 +443,9 @@ footer {
         flex-direction: column;
     }
 
-    .my-photo {
+    /* .my-photo {
         width: 40vw;
-    }
+    } */
 
     #programas-text {
         display: block;
