@@ -43,24 +43,8 @@ fecharMenu();
 
 function mostrarFrase() {
 
-    let descTecnologias = [
-        document.querySelector('#desc-html'),
-        document.querySelector('#desc-css'),
-        document.querySelector('#desc-js'),
-        document.querySelector('#desc-git'),
-        document.querySelector('#desc-github'),
-        document.querySelector('#desc-figma')
-    ];
-
-    let iconTecnologias = [
-        document.querySelector('#html'),
-        document.querySelector('#css'),
-        document.querySelector('#js'),
-        document.querySelector('#git'),
-        document.querySelector('#gith'),
-        document.querySelector('#figma')
-    ];
-
+    let descTecnologias = document.querySelectorAll('.desc-text');
+    let iconTecnologias = document.querySelectorAll('.item-programa');
     let inst = document.querySelector('#instrucao');
     
     for (let a = 0; a < iconTecnologias.length; a++) {
