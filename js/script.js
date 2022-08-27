@@ -77,3 +77,31 @@ function typeWriter(elemento) {
 
 const meuNome = document.querySelector('h1 span');
 typeWriter(meuNome);
+
+
+var btnVerMais = document.querySelector('#btnVerMais');
+
+function mostrarMaisOuMenos() {
+
+    var itemsParaEsconder = document.querySelectorAll('.esconder');
+
+    for (let i = 0; i < itemsParaEsconder.length; i++) {
+
+        if (itemsParaEsconder[i].style.display === 'flex') {
+
+            itemsParaEsconder[i].style.display = 'none';
+            btnVerMais.innerHTML = 'VER MAIS <br> <span id="seta"></span>';
+
+        } else {
+
+            itemsParaEsconder[i].style.display = 'flex';
+            btnVerMais.innerHTML = "<span id='seta' style='transform: rotate(135deg); margin: -7px -7px 0 0'></span> <br> VER MENOS";
+            
+        }
+        
+    }
+    
+}
+
+btnVerMais.addEventListener('click', mostrarMaisOuMenos);
+

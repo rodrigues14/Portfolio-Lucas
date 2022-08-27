@@ -282,6 +282,34 @@ h2 {
     margin: auto auto 2rem;
 }
 
+#seta {
+    position: absolute;
+    padding: 16px;
+    box-shadow: 4px -4px 2px 1px #1E90FF inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-45deg);
+    left: calc(50% - 16px);
+    margin: 0;    
+}
+
+#btnVerMais {
+    display: block; 
+    cursor: pointer; 
+    border: none;
+    margin-inline: auto;
+    margin-top: 50px;
+    padding: 16px 10px;
+    color: #1E90FF;
+    font-size: 20px;
+    background: transparent;
+    font-weight: bold;
+}
+
+.esconder {
+    display: none;
+}
+
 /*--------------CONTATO--------------*/
 .form-contato {
     width: 80vw;
