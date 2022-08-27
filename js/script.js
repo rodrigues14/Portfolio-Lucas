@@ -70,9 +70,13 @@ function typeWriter(elemento) {
 
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = '';
-    textoArray.forEach((letra, i) => {
-        setTimeout(() => elemento.innerHTML += letra, 150 * i);
-    });
+
+    setTimeout(() => {
+        textoArray.forEach((letra, i) => {
+            setTimeout(() => elemento.innerHTML += letra, 150 * i);
+        });
+    }, 1500);
+
 }
 
 const meuNome = document.querySelector('h1 span');
