@@ -6,12 +6,18 @@
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
 </div>
 
-<h2>Sobre</h2>
+## Sobre
 
-<p>✔ Meu Portfólio. Aplicação criada para apresentar meus projetos e um pouco mais sobre mim!</p>
-<p>✔ Projeto responsivo</p>
+✔ Meu Portfólio. Aplicação criada para apresentar meus projetos e um pouco mais sobre mim! <br>
+✔ Projeto responsivo
+
+## Deploy
+
+https://portfolio-lucasrodrigues.netlify.app/
 
 <br>
 <img src="./images/portfolio-int.png">
 
+## Ultimas autalizações
 
+- Criação do botão ver mais/menos e adicionado mais projetos que realizei!
