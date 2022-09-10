@@ -1,23 +1,37 @@
-<h1 align= "center" > Portfólio </h1>
+# Portfólio
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/rodrigues14/Portfolio-Lucas/blob/main/LICENSE) 
 
-<div align= "center" style="display: block">
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
-</div>
-
-## Sobre
-
-✔ Meu Portfólio. Aplicação criada para apresentar meus projetos e um pouco mais sobre mim! <br>
-✔ Projeto responsivo
-
-## Deploy
+# Sobre o projeto
 
 https://portfolio-lucasrodrigues.netlify.app/
 
-<br>
-<img src="./images/portfolio-int.png">
+Este projeto foi criado com o intuito de apresentar o que venho realizando e um pouco mais sobre mim, além de colocar meu conhecimento em prática durante o desenvolvimento e aprender coisas novas.
 
-## Ultimas autalizações
+## Layout mobile
 
-- Criação do botão ver mais/menos e adicionado mais projetos que realizei!
+<div align= "center" >
+
+  <img src="images/print1.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print2.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print3.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print4.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print5.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print6.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print7.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print8.jpg" alt="Imagem do projeto mobile" width="230"/>
+  
+</div>
+
+
+## Layout web
+
+![projeto-web](https://github.com/rodrigues14/Portfolio-Lucas/blob/main/images/portfolio-int.png)
+
+# Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Figma
+
+## Implantação em produção
+- Front end web: Netlify
+
+# Autor
+
+Lucas Rodrigues Souza
+
+https://www.linkedin.com/in/lucas-rodrigues-perfil/
