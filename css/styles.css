@@ -165,7 +165,8 @@ h2 {
     flex-basis: 48%;
     text-align: start;
     font-size: 19px;
-    line-height: 29px;
+    line-height: 30px;
+    color: #DCDCDC;
 }
 
 .img-and-content {
@@ -234,6 +235,7 @@ h2 {
 .outros-conhecimentos ul {
     list-style: circle;
     padding: 18px 8px 0;
+    color: #DCDCDC;
 }
 
 /*--------------PROJETOS--------------*/
@@ -269,7 +271,7 @@ h2 {
 }
 
 .box-projeto p {
-    text-align: center;
+    text-align: justify;
     color: #000000;
     padding: 0 1rem;
     margin-bottom: 2rem;
@@ -343,6 +345,10 @@ textarea {
     width: 200px;
 }
 
+label {
+    color: #DCDCDC;
+}
+
 label span {
     color: #b0041b;
 }
@@ -414,6 +420,10 @@ footer {
         flex-direction: column;
         gap: 20px; 
         height: 210px; 
+    }
+
+    .img-and-content p {
+        text-align: justify;
     }
 }
 
