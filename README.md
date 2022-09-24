@@ -26,6 +26,8 @@ Este projeto foi criado com o intuito de apresentar o que venho realizando e um 
 - CSS3
 - JavaScript
 - Figma
+- GIT
+- GitHub
 
 ## Implantação em produção
 - Front end web: Netlify
