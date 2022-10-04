@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-https://portfolio-lucasrodrigues.netlify.app/
+[Clique aqui para acessar o projeto](https://portfolio-lucasrodrigues.netlify.app/)
 
 Este projeto foi criado com o intuito de apresentar o que venho realizando e um pouco mais sobre mim, além de colocar meu conhecimento em prática durante o desenvolvimento e aprender coisas novas.
 
@@ -34,6 +34,5 @@ Este projeto foi criado com o intuito de apresentar o que venho realizando e um 
 
 # Autor
 
-Lucas Rodrigues Souza
-
-https://www.linkedin.com/in/lucas-rodrigues-perfil/
+- Lucas Rodrigues Souza
+- [LinkedIn](https://www.linkedin.com/in/lucas-rodrigues-perfil/)
