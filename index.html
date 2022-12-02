@@ -1,255 +1,243 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/scrollreveal"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/scrollreveal"></script>
 
-    <link rel="stylesheet" href="./css/scrollbar.css">
-    <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/scrollbar.css">
+  <link rel="stylesheet" href="./css/styles.css">
 
-    <title>Portfólio | Lucas</title>
-    <link rel="shortcut icon" href="./images/logo.png" >
+  <title>Portfólio | Lucas</title>
+  <link rel="shortcut icon" href="assets/images/logo.png">
 </head>
+
 <body>
 
-    <header id="header">
-        <a id="link-logo" href="#home">
-            <img id="logo" src="./images/logo.png" alt="">
-        </a>
-        <nav id="nav">
-            <button id="btn-mobile"><img id="icon-menu" src="./images/icon-menu.svg" alt=""></button>
-            <ul id="menu">
-                <li class="link"><a id="link1" href="#home">Home</a></li>
-                <li class="link"><a id="link2" href="#sobre-mim">Sobre mim</a></li>
-                <li class="link"><a id="link3" href="#habilidades">Habilidades</a></li>
-                <li class="link"><a id="link4" href="#projetos">Projetos</a></li>
-                <li class="link"><a id="link5" href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header id="header">
+    <a id="link-logo" href="#home">
+      <img id="logo" src="assets/images/logo.png" alt="">
+    </a>
+    <nav id="nav">
+      <button id="btn-mobile"><img id="icon-menu" src="assets/images/icon-menu.svg" alt=""></button>
+      <ul id="menu">
+        <li class="link"><a id="link1" href="#home">Home</a></li>
+        <li class="link"><a id="link2" href="#sobre-mim">Sobre mim</a></li>
+        <li class="link"><a id="link3" href="#habilidades">Habilidades</a></li>
+        <li class="link"><a id="link4" href="#projetos">Projetos</a></li>
+        <li class="link"><a id="link5" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <section id="home">
-            <div class="content-left">
-                <h1>
-                    Olá, eu sou<br>
-                    <span>Lucas Rodrigues</span><br>
-                    Desenvolvedor Front-end
-                </h1>
-                <div id="icon-home">
-                    <a target="_blank" href="https://www.linkedin.com/in/lucas-rodrigues-perfil/">
-                        <img src="./images/icon-linkedin.svg" class="icon-link" alt="Ícone do LinkedIn">
-                    </a>
-                    <a target="_blank" href="https://github.com/rodrigues14">
-                        <img src="./images/icon-github.svg" class="icon-link" alt="Ícone do Github">
-                    </a>
-                </div>
-                <div class="curriculo">
-                    <a class="btn" id="btn-curriculo" href="./archive/lucas-rodrigues-curriculo.pdf" download="lucas-rodrigues-curriculo">Download CV</a>
-                </div>
-            </div>
-
-            <img src="./images/computer.svg" alt="Ilustração de um computador" class="img-computer">
-        </section>
-     
-        <section id="sobre-mim">
-            <h2>Sobre mim</h2>
-            <div class="img-and-content">
-                <div id="sobre-mim-left">
-                    <p>
-                        Meu nome é Lucas, tenho 18 anos e atualmente estou cursando o segundo semestre de Análise e Desenvolvimento de Sistemas na FIAP. Estou em busca de um estágio com foco em desenvolvimento web front-end, uma vez que é a área que eu tenho maior interesse em adquirir conhecimento e atuar profissionalmente. No momento, me dedico aos estudos de JavaScript e estou realizando alguns projetos. Meu interesse em tecnologia foi despertado no início deste ano e, logo de cara, me identifiquei com a área, visto que gosto muito de criar coisas novas e pensar em como eu posso resolver um determinado problema.
-                    </p>
-                </div>
-                <img src="./images/minha-foto.png" alt="Foto de Lucas" class="my-photo">
-            </div>
-        </section>
-        
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-            <div class="tec-content">
-                <div id="programas-text">
-                    <div class="programas">
-                        <div class="item-programa" id="html">
-                            <p>HTML5</p>
-                            <img src="./images/icon-html.svg" class="icon" alt="Ícone HTML5">
-                        </div>
-                        <div class="item-programa" id="css">
-                            <p>CSS3</p>
-                            <img src="./images/icon-css.svg" class="icon" alt="Ícone CSS3">
-                        </div>
-                        <div class="item-programa" id="js">
-                            <p>JAVASCRIPT</p>
-                            <img src="./images/icon-js.svg" class="icon" alt="Ícone Javascript">
-                        </div>
-                        <div class="item-programa" id="git">
-                            <p>GIT</p>
-                            <img src="./images/icon-git.svg" class="icon" alt="Ícone GIT">
-                        </div>
-                        <div class="item-programa" id="gith">
-                            <p>GITHUB</p>
-                            <img src="./images/icon-github.svg" class="icon" alt="Ícone GITHUB">
-                        </div>
-                        <div class="item-programa" id="figma">
-                            <p>FIGMA</p>
-                            <img src="./images/icon-figma.svg" class="icon" alt="Ícone FIGMA">
-                        </div>
-                    </div>
-                    
-                    <div class="descrição-tec">
-                        <p id="instrucao">/*Passe o mouse por cima das tecnologias para ver a descrição*/</p>
-                        <p class="hide desc-text" id="desc-html">HTML5 <br> <br>
-                            É uma linguagem de marcação utilizada na construção de páginas Web, na qual já tenho certa prática e consigo trabalhar com ela sem nenhuma dificuldade.
-                        </p>
-                        <p class="hide desc-text" id="desc-css">CSS3 <br> <br>
-                            Utilizado para a estilização de páginas Web, tenho conhecimento em bastantes recursos, além de sempre estar praticando e conhecendo novas funcionalidades.
-                        </p>
-                        <p class="hide desc-text" id="desc-js">JAVASCRIPT <br> <br>
-                            Linguagem de programação, usada para deixar a página dinâmica. É o que estou estudando no momento e já realizei alguns projetos.
-                        </p>
-                        <p class="hide desc-text" id="desc-git">GIT <br> <br>
-                            É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software. 
-                        </p>
-                        <p class="hide desc-text" id="desc-github">GITHUB <br> <br>
-                            É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. 
-                        </p>
-                        <p class="hide desc-text" id="desc-figma">FIGMA <br> <br>
-                            É um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web. Utilizo para criar o layout antes de codificar, facilitando bastante na hora de desenvolver.
-                        </p>
-                    </div>
-                </div>
-                <div class="outros-conhecimentos">
-                    <h3>Além disso, Conhecimento nas áreas de:</h3>
-                    <ul>
-                        <li>Lógica de programação;</li>
-                        <li>Metodologias ágeis, como Scrum;</li>
-                        <li>Programação Orientada a Objetos;</li>
-                        <li>Java (estudando);</li>
-                        <li>SQL (estudando);</li>
-                        <li>Python;</li>
-                        <li>UX/UI;</li>
-                        <li>Chatbots;</li>
-                    </ul>
-                </div>
-            </div>
-
-        </section>
-        
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <div class="galeria-projetos">
-                <div class="box-projeto">
-                    <img class="img-projeto" src="./images/img-portfolio.PNG" alt="Imagem do projeto portfólio">
-                    <h3>Portfólio</h3>
-                    <p>Este projeto foi criado com o intuito de apresentar o que venho realizando e um pouco mais sobre mim, além de colocar meu conhecimento em prática. Nele, utilizei HTML, CSS e JavaScript. Assim, pude praticar um pouco mais de JS que é minha linguagem de interesse e a qual estou estudando no momento.</p>
-                    <a target="_blank" href="https://github.com/rodrigues14/Portfolio-Lucas" class="btn btn-mais-detalhes">Mais detalhes</a>
-                </div>
-                <div class="box-projeto">
-                    <img class="img-projeto" src="./images/proj-resultado.PNG" alt="Imagem do projeto resultados">
-                    <h3>Resultados</h3>
-                    <p>Projeto utilizando HTML, CSS e JavaScript, onde o usuário pode digitar dois time e, após clicar no botão "Verificar", uma frase é retornada aleatoriamente sobre o resultado. Meu objetivo principal neste projeto foi praticar o JS.</p>
-                    <a target="_blank" href="https://rodrigues14.github.io/resultados/" class="btn btn-mais-detalhes">Mais detalhes</a>
-                </div>
-                <div class="box-projeto">
-                    <img class="img-projeto" src="./images/quizz1.PNG" alt="Imagem do projeto Burguer Castle">
-                    <h3>Quizz programação</h3>
-                    <p>Projeto desenvolvido durante o curso de JavaScript ministrado pelo Matheus Battisti e foi utilizado as tecnologias: HTML, CSS e JS. Consiste em um quizz com 8 questões sobre programação e me ajudou a praticar e recapitular alguns pontos sobre a linguagem.</p>
-                    <a target="_blank" href="https://rodrigues14.github.io/quizz-programacao/" class="btn btn-mais-detalhes">Mais detalhes</a>
-                </div>
-                <div class="box-projeto esconder">
-                    <img class="img-projeto" src="./images/jogoDV1.PNG" alt="Imagem do projeto jogo da velha">
-                    <h3>Jogo da velha</h3>
-                    <p>Projeto criado durante o curso de Javascript do professor Matheus Battisti utilizando HTML, CSS e JS. Foi muito importante pois pude por em prática a maior parte do conteúdo estudado e foi um projeto bem extenso e complicado, minha meta e refaze-lo 100% sozinho.</p>
-                    <a target="_blank" href="https://rodrigues14.github.io/jogo-da-velha/" class="btn btn-mais-detalhes">Mais detalhes</a>
-                </div>
-                <div class="box-projeto esconder">
-                    <img class="img-projeto" src="./images/img-calc-imc.PNG" alt="Imagem do projeto calculadora de imc">
-                    <h3>Calculadora - IMC</h3>
-                    <p>Projeto bem simples, criado com HTML, CSS e JS, com o objetivo de treinar mais sobre DOM, exibindo um determinado resultado de acordo com os valores recebidos pelo usuário.</p>
-                    <a target="_blank" href="https://rodrigues14.github.io/imc/" class="btn btn-mais-detalhes">Mais detalhes</a>
-                </div>
-                <div class="box-projeto esconder">
-                    <img class="img-projeto" src="./images/img-burguer.PNG" alt="Imagem do projeto Burguer Castle">
-                    <h3>Burguer Castle</h3>
-                    <p>Criado durante um nano curso de desenvolvimento web da Fiap, e foi utilizado basicamente HTML, CSS e um pouco de JS, apenas para criar o menu mobile, para deixar o site responsivo e agradável de navegar.</p>
-                    <a target="_blank" href="https://rodrigues14.github.io/hamburgueria-site/" class="btn btn-mais-detalhes">Mais detalhes</a>
-                </div>
-                <div class="box-projeto esconder">
-                    <img class="img-projeto" src="./images/login-financerto.PNG" alt="Imagem do projeto FinanCerto">
-                    <h3>FinanCerto</h3>
-                    <p>Página de login de um site de controle financeiro. Este projeto ainda está em desenvolvimento, e será um sistema completo.</p>
-                    <a target="_blank" href="https://github.com/rodrigues14/projeto-fintech" class="btn btn-mais-detalhes">Mais detalhes</a>
-                </div>
-                <div class="box-projeto esconder">
-                    <img class="img-projeto" src="./images/img-nlw.PNG" alt="Imagem do projeto realizado durante a nlw">
-                    <h3>NLW</h3>
-                    <p>Projeto desenvolvido durante a NLW, da Rocketseat, onde foi utilizado apenas HTML e CSS, e apresenta os filmes de super-heróis e os personagens da Marvel que eu mais gosto, além disso, uma seção com os meus links.</p>
-                    <a target="_blank" href="https://rodrigues14.github.io/nlw/" class="btn btn-mais-detalhes">Mais detalhes</a>
-                </div>
-                <div class="box-projeto esconder">
-                    <img class="img-projeto" src="./images/piadas1.PNG" alt="Imagem do projeto contador de piadas">
-                    <h3>Contador de piadas</h3>
-                    <p>A idéia desse projeto era trabalhar com retornos aleatórios após o usuário realizar uma ação, retornando alguma das piadas disponíveis, para realiza-lo, foi utilizado HTML, CSS e JS, foi bem simples e divertido de fazer.</p>
-                    <a target="_blank" href="https://rodrigues14.github.io/contador-piadas/" class="btn btn-mais-detalhes">Mais detalhes</a>
-                </div>
-                <div class="box-projeto esconder">
-                    <img class="img-projeto" src="./images/img-mentor.PNG" alt="Imagem da landing page desenvolvida no frontend-mentor">
-                    <h3>Desafio Frontend-mentor</h3>
-                    <p>Landing page criada no meu primeiro desafio da Frontend-mentor, que consistia em replicar o layout proposto, utilizando HTML, CSS e JS e deixar o mais fiel possível.</p>
-                    <a target="_blank" href="https://rodrigues14.github.io/intro-section-with-dropdown-navigation/" class="btn btn-mais-detalhes">Mais detalhes</a>
-                </div>
-                <div class="box-projeto esconder">
-                    <img class="img-projeto" src="./images/img-todo.PNG" alt="To-Do List">
-                    <h3>To-Do List</h3>
-                    <p>Projeto CRUD desenvolvido com o intuito de práticar JavaScript, onde o usuário pode inserir, deletar, editar e marcar como concluída as suas tarefas.</p>
-                    <a target="_blank" href="" class="btn btn-mais-detalhes">Mais detalhes</a>
-                </div>
-                <div class="box-projeto esconder">
-                    <img class="img-projeto" src="./images/img-viagens.PNG" alt="Web site de viagem">
-                    <h3>Descanse na Rede</h3>
-                    <p>Este projeto foi desenvolvido durante um curso de desenvolvimento front-end da Fiap, onde eu pude entender melhor e praticar o framework Bootstrap, que facilita muito o processo de desenvolvimento front-end</p>
-                    <a target="_blank" href="" class="btn btn-mais-detalhes">Mais detalhes</a>
-                </div>
-            </div>
-
-            <button id="btnVerMais">VER MAIS <br> <span id="seta"></span></button>
-
-        </section>
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <div class="form-contato">
-                <form action="https://formsubmit.co/lucascontatodev@gmail.com" method="POST">
-                    <label for="email">E-mail<span> *</span> </label>
-                    <input type="email" name="email" id="email" placeholder="exemplo@email.com" required>
-                    <label for="assunto">Assunto</label>
-                    <input type="text" name="assunto" id="assunto" placeholder="Qual é o assunto?">
-                    <label for="message">Mensagem<span> *</span></label>
-                    <textarea name="message" id="message" placeholder="Escreva sua mensagem!" required></textarea>
-                    <input type="hidden" name="_next" value="https://portfolio-lucasrodrigues.netlify.app//thanks.html">
-                    <button class="btn" id="btn-submit" type="submit">Enviar</button>
-               </form>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div>
-            <p id="nome-footer">Lucas Rodrigues - Todos os direitos reservados</p>
-            <p>lucascontatodev@gmail.com</p>
+  <main>
+    <section id="home">
+      <div class="content-left">
+        <h1>
+          Olá, eu sou<br>
+          <span>Lucas Rodrigues</span><br>
+          Desenvolvedor Front-end
+        </h1>
+        <div id="icon-home">
+          <a target="_blank" href="https://www.linkedin.com/in/lucas-rodrigues-perfil/">
+            <img src="assets/images/icon-linkedin.svg" class="icon-link" alt="Ícone do LinkedIn">
+          </a>
+          <a target="_blank" href="https://github.com/rodrigues14">
+            <img src="assets/images/icon-github.svg" class="icon-link" alt="Ícone do Github">
+          </a>
         </div>
-        <div id="icon-footer">
-            <a target="_blank" href="https://www.linkedin.com/in/lucas-rodrigues-perfil/">
-                <img src="./images/icon-linkedin.svg" class="icon-link2" alt="Ícone do LinkedIn">
-            </a> 
-            <a target="_blank" href="https://github.com/rodrigues14">
-                <img src="./images/icon-github.svg" class="icon-link2" alt="Ícone do Github">
-            </a>
+        <div class="curriculo">
+          <a class="btn" id="btn-curriculo" href="./assets/archive/lucas-rodrigues-curriculo.pdf"
+            download="lucas-rodrigues-curriculo">Download CV</a>
         </div>
-    </footer>
+      </div>
 
-    <script src="js/scrollreveal.js"></script>
-    <script src="js/script.js"></script>
+      <img src="assets/images/computer.svg" alt="Ilustração de um computador" class="img-computer">
+    </section>
+
+    <section id="sobre-mim">
+      <h2>Sobre mim</h2>
+      <div class="img-and-content">
+        <div id="sobre-mim-left">
+          <p>
+            Meu nome é Lucas, tenho 19 anos e atualmente estou cursando Análise e Desenvolvimento de Sistemas na FIAP. Estou em busca de um estágio com foco em desenvolvimento web front-end, uma vez que é a área que eu tenho maior interesse em adquirir conhecimento e atuar profissionalmente. No momento, me dedico
+            aos estudos de React e estou realizando alguns projetos, para práticar meus novos conhecimentos. <br/> Comecei a estudar programação no início de 2022. No começo, eu achei complicado e que isso não era para mim, mas depois que eu comecei a entender um pouco mais sobre, e tudo o que pode ser feito com a tecnologia, eu passei a gostar e me dedicar cada vez mais e sigo em busca dos meus objetivos. 
+          </p>
+        </div>
+        <img src="assets/images/minha-foto.png" alt="Foto de Lucas" class="my-photo">
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <div class="tec-content">
+        <div id="programas-text">
+          <div class="programas">
+            <div class="item-programa" id="react">
+              <p>React</p>
+              <img src="assets/images/icon-react.svg" class="icon" alt="Ícone React">
+            </div>
+            <div class="item-programa" id="js">
+              <p>JavaScript</p>
+              <img src="assets/images/icon-js.svg" class="icon" alt="Ícone Javascript">
+            </div>
+            <div class="item-programa" id="html">
+              <p>HTML5</p>
+              <img src="assets/images/icon-html.svg" class="icon" alt="Ícone HTML5">
+            </div>
+            <div class="item-programa" id="css">
+              <p>CSS3</p>
+              <img src="assets/images/icon-css.svg" class="icon" alt="Ícone CSS3">
+            </div>
+            
+            <div class="item-programa" id="js">
+              <p>Bootstrap</p>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" class="icon" alt="Ícone Bootstrap">
+            </div>
+            <div class="item-programa" id="git">
+              <p>Git</p>
+              <img src="assets/images/icon-git.svg" class="icon" alt="Ícone GIT">
+            </div>
+            <div class="item-programa" id="gith">
+              <p>GitHub</p>
+              <img src="assets/images/icon-github.svg" class="icon" alt="Ícone GITHUB">
+            </div>
+            
+          </div>
+
+          <div class="descrição-tec">
+            <p id="instrucao">/*Passe o mouse por cima das tecnologias para ver a descrição*/</p>
+            <p class="hide desc-text" id="desc-figma">React <br> <br>
+              No momento estou estudando esta biblioteca JavaScript através da Alura. Comecei recentemente e estou progredindo diariamente.
+            </p>
+            <p class="hide desc-text" id="desc-js">JavaScript <br> <br>
+              Linguagem de programação, usada para deixar a página dinâmica. Conheço bem a tecnologia e no momento estou estudando um de seus framework.
+            </p>
+            <p class="hide desc-text" id="desc-html">HTML5 <br> <br>
+              É uma linguagem de marcação utilizada na construção de páginas Web, na qual já tenho certa prática e
+              consigo trabalhar com ela sem nenhuma dificuldade.
+            </p>
+            <p class="hide desc-text" id="desc-css">CSS3 <br> <br>
+              Utilizado para a estilização de páginas Web, tenho conhecimento em bastantes recursos, além de sempre
+              estar praticando e conhecendo novas funcionalidades.
+            </p>
+            <p class="hide desc-text" id="desc-js">Bootstrap <br> <br>
+              Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript. Já utilizei algumas vezes e ajuda muito devido sua praticidade.
+            </p>
+            <p class="hide desc-text" id="desc-git">Git <br> <br>
+              É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.
+            </p>
+            <p class="hide desc-text" id="desc-github">GitHub <br> <br>
+              É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.
+            </p>
+            
+          </div>
+        </div>
+        <div class="outros-conhecimentos">
+          <h3>Além disso, Conhecimento nas áreas de:</h3>
+          <ul>
+            <li>Programação Orientada a Objetos;</li>
+            <li>Java;</li>
+            <li>SQL server;</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="galeria-projetos">
+        <div class="box-projeto">
+          <img class="img-projeto" src="assets/images/proj-copa.PNG" alt="Imagem do projeto portfólio">
+          <h3>Copa do Mundo 2022</h3>
+          <p>Projeto desenvolvido em React, onde o usuário pode cadastrar um jogador na sua seleção, através de um formulário, que ao ser submetido, altera o estado da aplicação, renderizando o jogador na tela.</p>
+          <a target="_blank" href="https://jogadores-copa-do-mundo.vercel.app/" class="btn btn-mais-detalhes">Mais
+            detalhes</a>
+        </div>
+        <div class="box-projeto">
+          <img class="img-projeto" src="assets/images/img-viagens.PNG" alt="Web site de viagem">
+          <h3>Descanse na Rede</h3>
+          <p>Este projeto foi desenvolvido durante um curso de desenvolvimento front-end da Fiap, onde eu pude entender
+            melhor e praticar o framework Bootstrap, que facilita muito o processo de desenvolvimento front-end</p>
+          <a target="_blank" href="https://rodrigues14.github.io/descanse-na-rede-viagens/" class="btn btn-mais-detalhes">Mais detalhes</a>
+        </div>
+        <div class="box-projeto">
+          <img class="img-projeto" src="assets/images/quizz1.PNG" alt="Imagem do projeto Burguer Castle">
+          <h3>Quizz programação</h3>
+          <p>Projeto desenvolvido durante o curso de JavaScript ministrado pelo Matheus Battisti e foi utilizado as
+            tecnologias: HTML, CSS e JS. Consiste em um quizz com 8 questões sobre programação e me ajudou a praticar e
+            recapitular alguns pontos sobre a linguagem.</p>
+          <a target="_blank" href="https://rodrigues14.github.io/quizz-programacao/" class="btn btn-mais-detalhes">Mais
+            detalhes</a>
+        </div>
+        <div class="box-projeto esconder">
+          <img class="img-projeto" src="assets/images/jogoDV1.PNG" alt="Imagem do projeto jogo da velha">
+          <h3>Jogo da velha</h3>
+          <p>Projeto criado durante o curso de Javascript do professor Matheus Battisti utilizando HTML, CSS e JS. Foi
+            muito importante pois pude por em prática a maior parte do conteúdo estudado e foi um projeto bem extenso e
+            complicado, minha meta e refaze-lo 100% sozinho.</p>
+          <a target="_blank" href="https://rodrigues14.github.io/jogo-da-velha/" class="btn btn-mais-detalhes">Mais
+            detalhes</a>
+        </div> 
+        <div class="box-projeto esconder">
+          <img class="img-projeto" src="assets/images/img-mentor.PNG"
+            alt="Imagem da landing page desenvolvida no frontend-mentor">
+          <h3>Desafio Frontend-mentor</h3>
+          <p>Landing page criada no meu primeiro desafio da Frontend-mentor, que consistia em replicar o layout
+            proposto, utilizando HTML, CSS e JS e deixar o mais fiel possível.</p>
+          <a target="_blank" href="https://rodrigues14.github.io/intro-section-with-dropdown-navigation/"
+            class="btn btn-mais-detalhes">Mais detalhes</a>
+        </div>
+        <div class="box-projeto esconder">
+          <img class="img-projeto" src="assets/images/img-todo.PNG" alt="To-Do List">
+          <h3>To-Do List</h3>
+          <p>Projeto CRUD desenvolvido com o intuito de práticar JavaScript, onde o usuário pode inserir, deletar,
+            editar e marcar como concluída as suas tarefas.</p>
+          <a target="_blank" href="https://rodrigues14.github.io/to-do-list/" class="btn btn-mais-detalhes">Mais detalhes</a>
+        </div>
+      </div>
+
+      <button id="btnVerMais">VER MAIS <br> <span id="seta"></span></button>
+
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <div class="form-contato">
+        <form action="https://formsubmit.co/lucascontatodev@gmail.com" method="POST">
+          <label for="email">E-mail<span> *</span> </label>
+          <input type="email" name="email" id="email" placeholder="exemplo@email.com" required>
+          <label for="assunto">Assunto</label>
+          <input type="text" name="assunto" id="assunto" placeholder="Qual é o assunto?">
+          <label for="message">Mensagem<span> *</span></label>
+          <textarea name="message" id="message" placeholder="Escreva sua mensagem!" required></textarea>
+          <input type="hidden" name="_next" value="https://portfolio-lucasrodrigues.netlify.app//thanks.html">
+          <button class="btn" id="btn-submit" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <p id="nome-footer">Lucas Rodrigues - Todos os direitos reservados</p>
+      <p>lucascontatodev@gmail.com</p>
+    </div>
+    <div id="icon-footer">
+      <a target="_blank" href="https://www.linkedin.com/in/lucas-rodrigues-perfil/">
+        <img src="assets/images/icon-linkedin.svg" class="icon-link2" alt="Ícone do LinkedIn">
+      </a>
+      <a target="_blank" href="https://github.com/rodrigues14">
+        <img src="assets/images/icon-github.svg" class="icon-link2" alt="Ícone do Github">
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/scrollreveal.js"></script>
+  <script src="js/script.js"></script>
 </body>
+
 </html>
