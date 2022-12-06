@@ -11,14 +11,14 @@ Este projeto foi criado com o intuito de apresentar o que venho realizando e um 
 
 <div align= "center" >
 
-  <img src="images/print1.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print2.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print3.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print4.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print5.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print6.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print7.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="images/print8.jpg" alt="Imagem do projeto mobile" width="230"/>
+  <img src="assets/images/print1.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="assets/images/print2.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="assets/images/print3.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="assets/images/print4.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="assets/images/print5.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="assets/images/print6.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="assets/images/print7.jpg" alt="Imagem do projeto mobile" width="230"/> <img src="assets/images/print8.jpg" alt="Imagem do projeto mobile" width="230"/>
   
 </div>
 
 
 ## Layout web
 
-![projeto-web](https://github.com/rodrigues14/Portfolio-Lucas/blob/main/images/portfolio-int.png)
+![projeto-web](https://github.com/rodrigues14/Portfolio-Lucas/blob/main/assets/images/portfolio-int.png)
 
 # Tecnologias utilizadas
 
