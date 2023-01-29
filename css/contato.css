@@ -1,0 +1,43 @@
+.form-contato {
+  width: 80vw;
+  padding: 0px 5px 100px;
+  margin: 0 auto;
+}
+
+#contato input, #contato textarea {
+  margin: 8px 0px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  background-color: #E0FFFF;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 10px;
+}
+
+#contato textarea { 
+  min-height: 200px;
+  max-height: 500px;
+  resize: vertical;
+}
+
+#btn-submit {
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 32px auto;
+  width: 200px;
+}
+
+#contato label {
+  color: #DCDCDC;
+}
+
+#contato label span {
+  color: #b0041b;
+}
+
+::placeholder {
+  font-size: 16px;
+  color: #1c1c1c8d;
+}

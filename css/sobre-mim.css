@@ -1,0 +1,25 @@
+#sobre-mim div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6vw;
+}
+
+.my-photo {
+  width: 270px;
+  border-radius: 50%;
+}
+
+#sobre-mim-left {
+  display: flex;
+  flex-basis: 48%;
+  text-align: start;
+  font-size: 19px;
+  line-height: 30px;
+  color: #DCDCDC;
+}
+
+.img-and-content {
+  padding: 2rem 2rem 0;
+}

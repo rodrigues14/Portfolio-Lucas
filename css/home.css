@@ -1,0 +1,60 @@
+#home {
+  display: flex;
+  align-items: center;
+  padding: 100px 2rem 0;
+  justify-content: space-around;
+  min-height: calc(100vh - 150px);
+  margin-top: 0;
+}
+
+.img-computer {
+  width: 400px;
+  animation: float 1s linear infinite alternate-reverse;
+}
+
+#home h1 {
+  font-size: 26px;
+  margin-bottom: 18px;
+}
+
+#home h1 span {
+  font-size: 38px;
+  color: #1E90FF;
+  font-weight: 600;
+}
+
+#home h1 span::after {
+  content: '|';
+  margin-left: 3px;
+  opacity: 1;
+  animation: pisca .7s infinite;
+}
+
+.icon-link {
+  width: 40px;
+  transition: all .1s ease-in-out
+}
+
+.icon-link:hover, .icon-link2:hover {
+  transform: scale(1.1);
+}
+
+.curriculo {
+  text-align: center;
+  margin-top: 60px;
+}
+
+@keyframes pisca {
+  0%, 100% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+}
+
+@keyframes float {
+  to {
+      transform: translate( 0px, 23px);
+  }
+}

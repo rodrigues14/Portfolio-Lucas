@@ -1,0 +1,41 @@
+#menu a {
+  color: #fff;
+  font-size: 18px;
+}
+
+#menu a:hover {
+  background: #1c1c1c;
+  transition: .5s;
+}
+
+#logo {
+  width: 40px;
+}
+
+#header {
+  box-sizing: border-box;
+  height: 80px;
+  padding: 1rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: .5rem;
+}
+
+#menu a {
+  display: block;
+  padding: .8rem;
+}
+
+#btn-mobile {
+  display: none;
+}
