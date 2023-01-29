@@ -7,9 +7,9 @@ function toggleMenu(event) {
     nav.classList.toggle('active');
 
     if (nav.classList.contains('active')) {
-        iconMenu.src = "./images/icon-close.svg";
+        iconMenu.src = "assets/images/icon-close.svg";
     } else {
-        iconMenu.src = "./images/icon-menu.svg";
+        iconMenu.src = "assets/images/icon-menu.svg";
     }
 }
 
