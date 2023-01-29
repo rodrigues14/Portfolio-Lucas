@@ -31,7 +31,7 @@ function fecharMenu() {
         linksMenu[c].addEventListener('click', () => {
             if (nav.classList.contains('active')) {
                 nav.classList.remove('active');
-                iconMenu.src = "./images/icon-menu.svg";
+                iconMenu.src = "assets/images/icon-menu.svg";
             }
         })
     }
