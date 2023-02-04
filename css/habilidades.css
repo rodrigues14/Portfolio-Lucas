@@ -25,6 +25,10 @@
   transition: all .1s ease-in-out;
 }
 
+.item-programa p {
+  margin-bottom: 5px;
+}
+
 .item-programa:hover {
   transition: .5s;
   transform: scale(1.1);
